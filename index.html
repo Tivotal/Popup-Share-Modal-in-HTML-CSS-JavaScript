@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Share Popup Modal - Tivotal</title>
+
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <button class="view-modal">View Modal</button>
+    <div class="popup">
+      <header>
+        <span>Share Modal</span>
+        <div class="close"><i class="fas fa-times"></i></div>
+      </header>
+      <div class="content">
+        <p>Share the post via</p>
+        <ul class="icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+        </ul>
+        <p>Or copy the link</p>
+        <div class="field">
+          <i class="fas fa-link"></i>
+          <input type="text" readonly value="ticotal.com/post-id?=1234" />
+          <button>Copy</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
